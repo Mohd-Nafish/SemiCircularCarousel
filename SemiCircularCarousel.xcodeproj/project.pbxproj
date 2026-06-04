@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		32EEFC152FD1BCAB00296E73 /* SemiCircularCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemiCircularCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EEFC152FD1BCAB00296E73 /* SemiCircularCarouselDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemiCircularCarouselDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		32EEFC172FD1BCAB00296E73 /* SemiCircularCarousel */ = {
+		32EEFC172FD1BCAB00296E73 /* SemiCircularCarouselDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SemiCircularCarousel;
+			path = SemiCircularCarouselDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		32EEFC0C2FD1BCAB00296E73 = {
 			isa = PBXGroup;
 			children = (
-				32EEFC172FD1BCAB00296E73 /* SemiCircularCarousel */,
+				32EEFC172FD1BCAB00296E73 /* SemiCircularCarouselDemo */,
 				32EEFC162FD1BCAB00296E73 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		32EEFC162FD1BCAB00296E73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32EEFC152FD1BCAB00296E73 /* SemiCircularCarousel.app */,
+				32EEFC152FD1BCAB00296E73 /* SemiCircularCarouselDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32EEFC142FD1BCAB00296E73 /* SemiCircularCarousel */ = {
+		32EEFC142FD1BCAB00296E73 /* SemiCircularCarouselDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32EEFC202FD1BCAC00296E73 /* Build configuration list for PBXNativeTarget "SemiCircularCarousel" */;
+			buildConfigurationList = 32EEFC202FD1BCAC00296E73 /* Build configuration list for PBXNativeTarget "SemiCircularCarouselDemo" */;
 			buildPhases = (
 				32EEFC112FD1BCAB00296E73 /* Sources */,
 				32EEFC122FD1BCAB00296E73 /* Frameworks */,
@@ -61,13 +61,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				32EEFC172FD1BCAB00296E73 /* SemiCircularCarousel */,
+				32EEFC172FD1BCAB00296E73 /* SemiCircularCarouselDemo */,
 			);
-			name = SemiCircularCarousel;
+			name = SemiCircularCarouselDemo;
 			packageProductDependencies = (
+				32EEFC312FD1BCAB00296E73 /* SemiCircularCarousel */,
 			);
-			productName = SemiCircularCarousel;
-			productReference = 32EEFC152FD1BCAB00296E73 /* SemiCircularCarousel.app */;
+			productName = SemiCircularCarouselDemo;
+			productReference = 32EEFC152FD1BCAB00296E73 /* SemiCircularCarouselDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,12 +95,15 @@
 			);
 			mainGroup = 32EEFC0C2FD1BCAB00296E73;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				32EEFC302FD1BCAB00296E73 /* XCLocalSwiftPackageReference "." */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 32EEFC162FD1BCAB00296E73 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32EEFC142FD1BCAB00296E73 /* SemiCircularCarousel */,
+				32EEFC142FD1BCAB00296E73 /* SemiCircularCarouselDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +270,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nafish.io.SemiCircularCarousel;
+				PRODUCT_BUNDLE_IDENTIFIER = nafish.io.SemiCircularCarouselDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -298,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nafish.io.SemiCircularCarousel;
+				PRODUCT_BUNDLE_IDENTIFIER = nafish.io.SemiCircularCarouselDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -312,6 +316,21 @@
 		};
 /* End XCBuildConfiguration section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		32EEFC302FD1BCAB00296E73 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		32EEFC312FD1BCAB00296E73 /* SemiCircularCarousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32EEFC302FD1BCAB00296E73 /* XCLocalSwiftPackageReference "." */;
+			productName = SemiCircularCarousel;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCConfigurationList section */
 		32EEFC102FD1BCAB00296E73 /* Build configuration list for PBXProject "SemiCircularCarousel" */ = {
 			isa = XCConfigurationList;
@@ -322,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32EEFC202FD1BCAC00296E73 /* Build configuration list for PBXNativeTarget "SemiCircularCarousel" */ = {
+		32EEFC202FD1BCAC00296E73 /* Build configuration list for PBXNativeTarget "SemiCircularCarouselDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32EEFC212FD1BCAC00296E73 /* Debug */,
