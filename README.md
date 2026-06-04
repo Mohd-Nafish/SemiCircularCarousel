@@ -149,4 +149,4 @@ Mohd Nafishuddin
 
 ## License
 
-Specify a license before publishing (e.g. MIT). Add a `LICENSE` file when you choose one.
+
