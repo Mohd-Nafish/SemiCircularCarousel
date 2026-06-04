@@ -139,6 +139,10 @@ SemiCircularCarousel/
 
 The Swift package product is **SemiCircularCarousel**. The demo app target is **SemiCircularCarouselDemo** so the app module name does not conflict with the library.
 
+## Screenshot
+<img width="400" height="300" alt="Screenshot 2026-06-04 at 8 19 27 PM" src="https://github.com/user-attachments/assets/f71701a6-b6bc-4569-a37c-4e67941cef55" />
+
+
 ## Author
 
 Mohd Nafishuddin
