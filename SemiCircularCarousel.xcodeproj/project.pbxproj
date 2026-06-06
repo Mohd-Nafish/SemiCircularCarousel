@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		328A51FA2FD3C6F6009033C5 /* SemiCircularCarousel in Frameworks */ = {isa = PBXBuildFile; productRef = 32EEFC312FD1BCAB00296E73 /* SemiCircularCarousel */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		32EEFC152FD1BCAB00296E73 /* SemiCircularCarouselDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemiCircularCarouselDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				328A51FA2FD3C6F6009033C5 /* SemiCircularCarousel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +270,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,6 +303,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,21 +322,6 @@
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		32EEFC302FD1BCAB00296E73 /* XCLocalSwiftPackageReference "." */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = .;
-		};
-/* End XCLocalSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		32EEFC312FD1BCAB00296E73 /* SemiCircularCarousel */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 32EEFC302FD1BCAB00296E73 /* XCLocalSwiftPackageReference "." */;
-			productName = SemiCircularCarousel;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCConfigurationList section */
 		32EEFC102FD1BCAB00296E73 /* Build configuration list for PBXProject "SemiCircularCarousel" */ = {
@@ -351,6 +343,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		32EEFC302FD1BCAB00296E73 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		32EEFC312FD1BCAB00296E73 /* SemiCircularCarousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32EEFC302FD1BCAB00296E73 /* XCLocalSwiftPackageReference "." */;
+			productName = SemiCircularCarousel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 32EEFC0D2FD1BCAB00296E73 /* Project object */;
 }

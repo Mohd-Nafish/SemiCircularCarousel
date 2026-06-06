@@ -115,9 +115,13 @@ struct CarouselDemoView: View {
 struct DestinationCard: View {
     let destination: Destination
 
+    private var cardShape: RoundedRectangle {
+        RoundedRectangle(cornerRadius: 32, style: .continuous)
+    }
+
     var body: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 32, style: .continuous)
+            cardShape
                 .fill(
                     LinearGradient(
                         colors: destination.colors,
@@ -125,14 +129,17 @@ struct DestinationCard: View {
                         endPoint: .bottomTrailing
                     )
                 )
-
-            RoundedRectangle(cornerRadius: 32, style: .continuous)
-                .strokeBorder(.white.opacity(0.18), lineWidth: 1)
-
-            Image(systemName: destination.symbol)
-                .font(.system(size: 150, weight: .semibold))
-                .foregroundStyle(.white.opacity(0.10))
-                .offset(x: 50, y: -60)
+                .overlay(alignment: .topTrailing) {
+                    Image(systemName: destination.symbol)
+                        .font(.system(size: 150, weight: .semibold))
+                        .foregroundStyle(.white.opacity(0.10))
+                        .offset(x: 20, y: 10)
+                }
+                .clipShape(cardShape)
+                .overlay {
+                    cardShape
+                        .strokeBorder(.white.opacity(0.18), lineWidth: 1)
+                }
 
             VStack(alignment: .leading, spacing: 0) {
                 HStack {
